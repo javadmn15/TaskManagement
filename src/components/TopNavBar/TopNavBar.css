@@ -1,7 +1,6 @@
 .container{
     display: flex;
     height: 40px;
-    padding: 20px;
 
     .nav-container{
         display: flex;
@@ -14,7 +13,7 @@
         flex-grow: 4;
         align-items: center;
         justify-content: flex-end;
-        gap: 15px;
+        gap: 20px;
 
         .btn-floating-primary{
             width: 35px;
@@ -24,5 +23,13 @@
             background-color: #bc72d4;
             box-shadow: 0 10px 10px -10px rgba(188, 114, 212, 1)
         }
+
+        .btn-floating-primary:hover {
+            box-shadow: 0 10px 25px rgba(188, 114, 212, 1);
+            -webkit-transform: translatey(2px);
+                    transform: translatey(2px);
+            -webkit-transition: all 0.3s;
+            transition: all 0.3s;
+          }
     }
 }

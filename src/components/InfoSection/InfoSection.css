@@ -1,0 +1,53 @@
+.container1{
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.queue-container{
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+
+.queue-box{
+  display: flex;
+  max-width: 100px;
+  margin-top: 5px;
+  justify-content: center;
+  flex-direction: column;
+  flex: 1 1 0;
+  height: 100px;
+  padding: 10px;
+  border-radius: 10%;
+
+  &.todo{
+    background-color: rgb(253, 114, 105);
+    box-shadow: 0 10px 10px -10px rgba(253, 114, 105, 1)
+  }
+
+  &.in-progress{
+    background-color: rgb(111, 111, 241);
+    box-shadow: 0 10px 10px -10px rgba(111, 111, 241, 1)
+  }
+
+  &.completed{
+    background-color: rgb(62, 208, 206);
+    box-shadow: 0 10px 10px -10px rgba(62, 208, 206, 1)
+  }
+
+}
+
+.queue-title{
+  font-family: 'Montserrat-Light';
+  color: white;
+  font-size: 15px;
+}
+
+.queue-count{
+  margin-top: 10px;
+  font-family: 'Montserrat-Bold';
+  color: white;
+  font-size: 42px;
+}

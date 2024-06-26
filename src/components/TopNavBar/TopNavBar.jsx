@@ -1,10 +1,10 @@
 import {Button,React} from "react";
-import "../components/TopNavBar.css";
+import "../TopNavBar/TopNavBar.css";
 
-import navIcon from '../assets/ic_nav_humberger.svg'
-import searchIcon from '../assets/ic_search.svg'
-import notificationIcon from '../assets/ic_notification.svg'
-import plusIcon from '../assets/ic_plus.svg'
+import navIcon from '../../assets/ic_nav_humberger.svg'
+import searchIcon from '../../assets/ic_search.svg'
+import notificationIcon from '../../assets/ic_notification.svg'
+import plusIcon from '../../assets/ic_plus.svg'
 function TopNavBar() {
   return (
       <div className="container">
@@ -12,7 +12,7 @@ function TopNavBar() {
           
             <img
               src={navIcon}
-              width="35"
+              width="30"
               alt="folder"
             />
 
@@ -21,12 +21,12 @@ function TopNavBar() {
         <div className="search-container">
             <img
               src={searchIcon}
-              width="30"
+              width="24"
               alt="folder"
             />
             <img
               src={notificationIcon}
-              width="30"
+              width="24"
               alt="folder"
             />
             <img
