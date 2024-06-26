@@ -1,5 +1,9 @@
 .App {
-  text-align: center;
+  padding: 20px;
+}
+
+body{
+  background: var(--main-bg-color);
 }
 
 .App-logo {
