@@ -39,6 +39,14 @@ h1{
   font-size: 20px;
 }
 
+
+span{
+  font-family: 'Montserrat-Light';
+  color: #aeadb1;
+  font-size: 12px;
+}
+
+
 .divider{
   background-color: rgb(23, 24, 30);
   box-shadow: 0 10 10 -10 rgba(23, 25, 30, 1);
