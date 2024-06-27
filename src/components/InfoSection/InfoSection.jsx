@@ -1,27 +1,28 @@
 import React from "react";
 import "../InfoSection/InfoSection.css";
+import { Stack, Typography } from "@mui/material";
 function InfoSection() {
   return (
-    <div className="container1">
-      <h1>Information</h1>
-      <div className="queue-container">
-        <div className="queue-box todo">
-          <span className="queue-title">In Queue</span>
-          <span className="queue-count">16</span>
-          <span className="queue-title">Tasks</span>
-        </div>
-        <div className="queue-box in-progress">
-          <span className="queue-title">In Progress</span>
-          <span className="queue-count">15</span>
-          <span className="queue-title">Tasks</span>
-        </div>
-        <div className="queue-box completed">
-        <span className="queue-title">Completed</span>
-          <span className="queue-count">18</span>
-          <span className="queue-title">Tasks</span>
-        </div>
-      </div>
-    </div>
+    <Stack>
+      <Typography variant="h4" sx={{marginTop:2}}>Information</Typography>
+      <Stack className="queue-container"  sx={{marginTop:1}}>
+        <Stack className="queue-box todo">
+          <Typography variant="span">In Queue</Typography>
+          <Typography variant="h2" sx={{marginTop:1}}>3</Typography>
+          <Typography variant="span">Tasks</Typography>
+        </Stack>
+        <Stack className="queue-box in-progress">
+          <Typography variant="span">In Progress</Typography>
+          <Typography variant="h2" sx={{marginTop:1}}>8</Typography>
+          <Typography variant="span">Tasks</Typography>
+        </Stack>
+        <Stack className="queue-box completed">
+          <Typography variant="span">Completed</Typography>
+          <Typography variant="h2" sx={{marginTop:1}}>12</Typography>
+          <Typography variant="span">Tasks</Typography>
+        </Stack>
+      </Stack>
+    </Stack>
   );
 }
 

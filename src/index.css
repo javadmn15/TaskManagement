@@ -33,11 +33,6 @@ code {
   src: local('Montserrat-Bold'), url(./assets/fonts/Montserrat-Bold.ttf) format('ttf');
 }
 
-h1{
-  font-family: 'Montserrat-Regular';
-  color: white;
-  font-size: 20px;
-}
 
 
 span{

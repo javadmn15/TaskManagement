@@ -1,12 +1,14 @@
 import React from 'react'
 import "../ProjectSection/ProjectSection.css";
+import { Stack, Typography } from "@mui/material";
+
 
 function ProjectSection() {
   return (
-    <div className='projects-container'>
-        <h1>All Projects</h1>
-        <span>Managing all your tasks at ease with task manager</span>
-    </div>
+    <Stack spacing={1} sx={{marginTop:3}}>
+        <Typography variant="h4">All Projects</Typography>
+        <Typography variant="p">Managing all your tasks at ease with task manager</Typography>
+    </Stack>
   )
 }
 
