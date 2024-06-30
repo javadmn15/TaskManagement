@@ -4,10 +4,9 @@ import InfoSection from '../../components/InfoSection/InfoSection'
 import ProjectSection from '../../components/ProjectSection/ProjectSection'
 import { QueueTabs } from '../../components/TabsSection/QueueTabs'
 
-function Home() {
+function Home({isDrawerOpen}) {
   return (
     <div>
-        <TopNavBar/>
         <InfoSection/>
         <ProjectSection/>
         <QueueTabs/>

@@ -5,7 +5,11 @@ import navIcon from '../../assets/ic_nav_humberger.svg'
 import searchIcon from '../../assets/ic_search.svg'
 import notificationIcon from '../../assets/ic_notification.svg'
 import plusIcon from '../../assets/ic_plus.svg'
-function TopNavBar() {
+function TopNavBar({setDrawerStatus}) {
+  const handleDrawerChange = () => {
+    setDrawerStatus(true)       
+  }
+
   return (
       <div className="container">
         <div className="nav-container">
@@ -13,6 +17,7 @@ function TopNavBar() {
             <img
               src={navIcon}
               width="30"
+              onClick={handleDrawerChange}
               alt="folder"
             />
 

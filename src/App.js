@@ -3,9 +3,11 @@ import './App.css';
 import './variables.css';
 import Home from './pages/home/Home';
 // import { createTheme } from '@mui/material/styles';
-
+import * as React from 'react';
 
 import { ThemeProvider, createTheme } from '@mui/material/styles';
+import Drawer from './components/drawer/DrawerNav';
+import TopNavBar from './components/TopNavBar/TopNavBar';
 
 const darkTheme = createTheme({
   typography: {
@@ -58,6 +60,15 @@ const darkTheme = createTheme({
       fontWeight: 400,
     },
   },
+  components: {
+    MuiDrawer: {
+      styleOverrides: {
+        paper: {
+          backgroundColor: "#272a34"
+        }
+      }
+    }
+  },
   palette: {
     mode: 'dark',
   },
@@ -65,11 +76,16 @@ const darkTheme = createTheme({
 
 
 function App() {
-
+  const [open, setOpen] = React.useState(false);
+  function setDrawerStatus()  {
+    setOpen(!open);
+  }
   return (
     <div className="App">
       <ThemeProvider theme={darkTheme}>
+        <TopNavBar setDrawerStatus={setDrawerStatus}/>
         <Home/>
+        <Drawer isDrawerOpen={open} setDrawerStatus={setDrawerStatus}/>
       </ThemeProvider>
     </div>
   );

@@ -5,7 +5,7 @@ function InfoSection() {
   return (
     <Stack>
       <Typography variant="h4" sx={{marginTop:2}}>Information</Typography>
-      <Stack className="queue-container"  sx={{marginTop:1}}>
+      <Stack direction="row" className="queue-container"  sx={{marginTop:1}}>
         <Stack className="queue-box todo">
           <Typography variant="span">In Queue</Typography>
           <Typography variant="h2" sx={{marginTop:1}}>3</Typography>
