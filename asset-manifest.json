@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/TaskManagement/static/css/main.0b1fc031.css",
+    "main.js": "/TaskManagement/static/js/main.c25742b3.js",
+    "static/js/453.dda05bf2.chunk.js": "/TaskManagement/static/js/453.dda05bf2.chunk.js",
+    "static/media/Montserrat-Bold.ttf": "/TaskManagement/static/media/Montserrat-Bold.50f0257aa1e905f4bfaf.ttf",
+    "static/media/Montserrat-Medium.ttf": "/TaskManagement/static/media/Montserrat-Medium.b8c6753baa964ccac1ba.ttf",
+    "static/media/Montserrat-Light.ttf": "/TaskManagement/static/media/Montserrat-Light.7179b7d2ac9b599db5f9.ttf",
+    "static/media/Montserrat-Regular.ttf": "/TaskManagement/static/media/Montserrat-Regular.24785cc015b27a3e964b.ttf",
+    "static/media/logo.svg": "/TaskManagement/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/TaskManagement/index.html",
+    "static/media/ic_notification.svg": "/TaskManagement/static/media/ic_notification.dd0b2edafdcbe7e997c83147fe9e2024.svg",
+    "static/media/ic_nav_humberger.svg": "/TaskManagement/static/media/ic_nav_humberger.74bd26a2f88829217ce6dc3e20dcc914.svg",
+    "static/media/ic_search.svg": "/TaskManagement/static/media/ic_search.a65fe23030273068818ea75e1c833202.svg",
+    "static/media/ic_plus.svg": "/TaskManagement/static/media/ic_plus.37d3ef4ecf53dfb88a1cb710b7d6125d.svg",
+    "main.0b1fc031.css.map": "/TaskManagement/static/css/main.0b1fc031.css.map",
+    "main.c25742b3.js.map": "/TaskManagement/static/js/main.c25742b3.js.map",
+    "453.dda05bf2.chunk.js.map": "/TaskManagement/static/js/453.dda05bf2.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0b1fc031.css",
+    "static/js/main.c25742b3.js"
+  ]
+}
